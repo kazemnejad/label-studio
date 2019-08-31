@@ -191,6 +191,9 @@ def save_completion(task_id, completion):
 
     task_id = int(task_id)
     task = get_completions(task_id)
+                          
+    if task is None:
+        task = dict()
 
     # init completions if it's empty
     if 'completions' not in task:
