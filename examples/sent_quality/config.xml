@@ -1,0 +1,29 @@
+<View>
+    <Header value="Please rate the following sentence"/>
+    <Text name="my_text" value="$reviewText"/>
+    <Text name="rand1" value="Grammatically"/>
+    <Choices name="gram" toName="my_text" choice="single-radio" showInLine="true">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+    <Text name="rand2" value="Coherency"/>
+    <Choices name="coh" toName="my_text" choice="single-radio" showInLine="true">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+    <Text name="rand3" value="Diversity"/>
+    <Choices name="div" toName="my_text" choice="single-radio" showInLine="true">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+    
+</View>
