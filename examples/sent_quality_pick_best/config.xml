@@ -1,5 +1,5 @@
 <View>
-    <Text name="desc" value="Which set of the outputs do you prefer? \nPlease opt based on the following criteria:\n- Quality: If the outputs are paraphrases of the input sentence to a good extent\n- Readability: If the outputs are understadable by humans\n- Novelty: If any one of the outputs has expressed the semantic content of source sentence in a novel way like what we do as humans (e.g. changing the voice from active to passive or vice versa, using different words,  phrases, or sentences that are not present in the source sentence but without changing the meaning considerably)\n- Diversity: if the three outputs are not expressed in the same way using the same words"/>
+    
     <Header value="Input"/>
     <Text name="my_text" value="$input"/>
     
