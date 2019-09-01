@@ -129,7 +129,7 @@ def load_config():
                             help='output directory for completions')
         parser.add_argument('-p', '--port', dest='port', default=8200, type=int,
                             help='backend port')
-        args = parser.parse_args()
+        args,_ = parser.parse_known_args()
 
         config_path = args.config_path
         prev_config = None
