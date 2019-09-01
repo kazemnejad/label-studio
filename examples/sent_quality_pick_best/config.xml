@@ -11,7 +11,7 @@
     <Text name="opt_3" value="$opt_3"/>
     
     <View>
-        <Header value="\nI prefer the Set ..."/>
+        <Header value="\nI prefer Set ..."/>
         <Choices name="best" toName="my_text" choice="single" showInLine="true">
             <Choice value="#1" alias="1"/>
             <Choice value="#2" alias="2"/>
