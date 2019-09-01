@@ -16,14 +16,5 @@
       <Choice value="3) Cover part of the content of source sentence and has serious information loss, e.g. what is the best love movie by wong ka wai → what is the best movie"/>
       <Choice value="4) Basically the same meaning of the source sentence but does not cover some minor content, e.g. what are some good places to visit in hong kong during summer → can you suggest some places to visit in hong kong;"/>
       <Choice value="5) Accurate paraphrase with exact the same meaning of the source sentence"/>
-    </Choices>
-    <Text name="rand3" value="Diversity"/>
-    <Choices name="div" toName="my_text" choice="single-radio" showInLine="true">
-      <Choice value="1"/>
-      <Choice value="2"/>
-      <Choice value="3"/>
-      <Choice value="4"/>
-      <Choice value="5"/>
-    </Choices>
-    
+    </Choices> 
 </View>
