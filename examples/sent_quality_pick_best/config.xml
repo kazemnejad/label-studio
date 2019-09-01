@@ -10,7 +10,7 @@
     
     <View>
         <Header value="\nI prefer ..."/>
-        <Choices name="best" toName="my_text" choice="single" showInLine="true">
+        <Choices name="best" toName="my_text" choice="single" showInLine="false">
             <Choice value="Set #1" alias="1"/>
             <Choice value="Set #2" alias="2"/>
             <Choice value="both(#1 and #2)" alias="3"/>
